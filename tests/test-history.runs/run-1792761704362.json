@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "summary": {
+    "runId": "run-1792761704362",
+    "timestamp": "2026-10-23T13:21:44.362Z",
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0,
+    "flaky": 0,
+    "slow": 0,
+    "duration": 6789,
+    "passRate": 0,
+    "stabilityGrade": "F"
+  },
+  "tests": {
+    "[chromium] login.spec.ts::Thực hành Đăng Nhập Bảo Mật trên trang SauceDemo": {
+      "passed": false,
+      "duration": 6241,
+      "timestamp": "2026-10-23T13:21:51.151Z",
+      "runId": "run-1792761704362",
+      "skipped": false,
+      "retry": 0,
+      "stepDurations": {
+        "Điền thông tin bảo mật [REDACTED]": 14
+      },
+      "clusterId": "63b1905f4ab30240"
+    }
+  },
+  "forecasts": {}
+}

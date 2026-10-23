@@ -61,6 +61,30 @@
           "Điền thông tin bảo mật [REDACTED]": 14
         },
         "clusterId": "63b1905f4ab30240"
+      },
+      {
+        "passed": false,
+        "duration": 7430,
+        "timestamp": "2026-10-23T13:21:20.126Z",
+        "runId": "run-1792761672139",
+        "skipped": false,
+        "retry": 0,
+        "stepDurations": {
+          "Điền thông tin bảo mật [REDACTED]": 14
+        },
+        "clusterId": "63b1905f4ab30240"
+      },
+      {
+        "passed": false,
+        "duration": 6241,
+        "timestamp": "2026-10-23T13:21:51.151Z",
+        "runId": "run-1792761704362",
+        "skipped": false,
+        "retry": 0,
+        "stepDurations": {
+          "Điền thông tin bảo mật [REDACTED]": 14
+        },
+        "clusterId": "63b1905f4ab30240"
       }
     ]
   },
@@ -129,6 +153,32 @@
       "duration": 12228,
       "passRate": 0,
       "stabilityGrade": "F"
+    },
+    {
+      "runId": "run-1792761672139",
+      "timestamp": "2026-10-23T13:21:12.139Z",
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 0,
+      "duration": 7987,
+      "passRate": 0,
+      "stabilityGrade": "F"
+    },
+    {
+      "runId": "run-1792761704362",
+      "timestamp": "2026-10-23T13:21:44.362Z",
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 0,
+      "duration": 6789,
+      "passRate": 0,
+      "stabilityGrade": "F"
     }
   ],
   "forecasts": {
@@ -136,6 +186,8 @@
     "run-1792761099917": {},
     "run-1792761168874": {},
     "run-1792761216559": {},
-    "run-1792761336608": {}
+    "run-1792761336608": {},
+    "run-1792761672139": {},
+    "run-1792761704362": {}
   }
 }
