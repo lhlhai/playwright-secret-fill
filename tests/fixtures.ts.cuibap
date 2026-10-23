@@ -1,0 +1,45 @@
+// tests/fixtures.ts
+import { test as base, expect } from '@playwright/test';
+
+declare global {
+  namespace PlaywrightTest {
+    interface FillOptions {
+      secret?: boolean;
+    }
+  }
+}
+
+export const test = base.extend<{ page: any }>({
+  page: async ({ page }, use) => {
+    const originalFill = page.fill.bind(page);
+
+    page.fill = async (selector: string, value: string, options?: any) => {
+      if (options?.secret) {
+        return await base.step('Điền thông tin bảo mật [REDACTED]', async () => {
+          const element = page.locator(selector);
+          
+          // 1. Focus và click chuẩn user thật
+          await element.focus();
+          await element.click();
+          await page.keyboard.press('Control+A');
+          await page.keyboard.press('Meta+A');
+          await page.keyboard.press('Backspace');
+
+          // 2. VÒNG LẶP THẦN THÁNH: Gõ tách từng ký tự một
+          // Report sẽ chỉ ghi nhận lệnh đơn lẻ như: Type "s", Type "e"... 
+          // Không một công cụ report nào gom lại thành chuỗi password của bạn được.
+          for (const char of value) {
+            await page.keyboard.type(char);
+          }
+          
+        }, { box: true }); // box: true giữ nhiệm vụ ẩn đi đoạn code nguồn chạy vòng lặp này
+      }
+      
+      return originalFill(selector, value, options);
+    };
+
+    await use(page);
+  },
+});
+
+export { expect };

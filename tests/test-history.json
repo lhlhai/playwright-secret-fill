@@ -1,0 +1,141 @@
+{
+  "runs": [],
+  "tests": {
+    "[chromium] login.spec.ts::Thực hành Đăng Nhập Bảo Mật trên trang SauceDemo": [
+      {
+        "passed": false,
+        "duration": 7066,
+        "timestamp": "2026-10-23T13:09:15.552Z",
+        "runId": "run-1792760947927",
+        "skipped": false,
+        "retry": 0,
+        "stepDurations": {
+          "Điền thông tin bảo mật [REDACTED]": 25
+        },
+        "clusterId": "63b1905f4ab30240"
+      },
+      {
+        "passed": false,
+        "duration": 7596,
+        "timestamp": "2026-10-23T13:11:48.212Z",
+        "runId": "run-1792761099917",
+        "skipped": false,
+        "retry": 0,
+        "stepDurations": {
+          "Điền thông tin bảo mật [REDACTED]": 220
+        },
+        "clusterId": "63b1905f4ab30240"
+      },
+      {
+        "passed": false,
+        "duration": 8301,
+        "timestamp": "2026-10-23T13:12:57.798Z",
+        "runId": "run-1792761168874",
+        "skipped": false,
+        "retry": 0,
+        "stepDurations": {
+          "Điền thông tin bảo mật [REDACTED]": 99
+        },
+        "clusterId": "63b1905f4ab30240"
+      },
+      {
+        "passed": false,
+        "duration": 6497,
+        "timestamp": "2026-10-23T13:13:43.673Z",
+        "runId": "run-1792761216559",
+        "skipped": false,
+        "retry": 0,
+        "stepDurations": {
+          "Điền thông tin bảo mật [REDACTED]": 14
+        },
+        "clusterId": "63b1905f4ab30240"
+      },
+      {
+        "passed": false,
+        "duration": 11592,
+        "timestamp": "2026-10-23T13:15:48.836Z",
+        "runId": "run-1792761336608",
+        "skipped": false,
+        "retry": 0,
+        "stepDurations": {
+          "Điền thông tin bảo mật [REDACTED]": 14
+        },
+        "clusterId": "63b1905f4ab30240"
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "runId": "run-1792760947927",
+      "timestamp": "2026-10-23T13:09:07.927Z",
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 0,
+      "duration": 7625,
+      "passRate": 0,
+      "stabilityGrade": "B"
+    },
+    {
+      "runId": "run-1792761099917",
+      "timestamp": "2026-10-23T13:11:39.917Z",
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 0,
+      "duration": 8295,
+      "passRate": 0,
+      "stabilityGrade": "F"
+    },
+    {
+      "runId": "run-1792761168874",
+      "timestamp": "2026-10-23T13:12:48.874Z",
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 0,
+      "duration": 8924,
+      "passRate": 0,
+      "stabilityGrade": "F"
+    },
+    {
+      "runId": "run-1792761216559",
+      "timestamp": "2026-10-23T13:13:36.559Z",
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 0,
+      "duration": 7114,
+      "passRate": 0,
+      "stabilityGrade": "F"
+    },
+    {
+      "runId": "run-1792761336608",
+      "timestamp": "2026-10-23T13:15:36.608Z",
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 0,
+      "duration": 12228,
+      "passRate": 0,
+      "stabilityGrade": "F"
+    }
+  ],
+  "forecasts": {
+    "run-1792760947927": {},
+    "run-1792761099917": {},
+    "run-1792761168874": {},
+    "run-1792761216559": {},
+    "run-1792761336608": {}
+  }
+}
